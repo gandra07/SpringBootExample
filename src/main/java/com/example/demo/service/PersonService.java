@@ -26,4 +26,12 @@ public class PersonService {
     public List<Person> getAllPeople() {
         return personDao.selectAllPeople();
     }
-}
+
+    public Oprional<Person> getPersonbyId(UUID id) {
+        return personService.getAllPeople();
+    }
+
+
+    }
+
+
